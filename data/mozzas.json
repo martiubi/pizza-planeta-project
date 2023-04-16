@@ -1,0 +1,50 @@
+[
+  { "type": "mozzas", "description": "SOLA", "price": "$1400" },
+  { "type": "mozzas", "description": "con ACEITUNAS", "price": "$1500" },
+  { "type": "mozzas", "description": "con HUEVO DURO", "price": "$1800" },
+  { "type": "mozzas", "description": "con MORRONES", "price": "$1800" },
+  { "type": "mozzas", "description": "con ROQUEFORT", "price": "$1800" },
+  { "type": "mozzas", "description": "con PROVOLONE", "price": "$1800" },
+  { "type": "mozzas", "description": "con PARMESANO", "price": "$1800" },
+  {
+    "type": "mozzas",
+    "description": "con RUCULA Y PARMESANO",
+    "price": "$1900"
+  },
+  { "type": "mozzas", "description": "CUATRO QUESOS", "price": "$1900" },
+  { "type": "mozzas", "description": "con PANCETA", "price": "$1900" },
+  {
+    "type": "mozzas",
+    "description": "con PANCETA Y ROQUEFORT",
+    "price": "$2200"
+  },
+  {
+    "type": "mozzas",
+    "description": "con PANCETA Y HUEVOS FRITOS",
+    "price": "$2300"
+  },
+  {
+    "type": "mozzas",
+    "description": "con LONGANIZA CALABRESA",
+    "price": "$1900"
+  },
+  { "type": "mozzas", "description": "con CHAMPIGNONES", "price": "$2600" },
+  { "type": "mozzas", "description": "con JAMON", "price": "$1700" },
+  {
+    "type": "mozzas",
+    "description": "con JAMON Y HUEVO DURO",
+    "price": "$2000"
+  },
+  {
+    "type": "mozzas",
+    "description": "con JAMON Y MORRONES",
+    "price": "$2000"
+  },
+  {
+    "type": "mozzas",
+    "description": "con JAMON Y PALMITOS",
+    "price": "$3000"
+  },
+  { "type": "mozzas", "description": "con JAMON Y ANANA", "price": "$2600" },
+  { "type": "mozzas", "description": "con HUEVOS FRITOS", "price": "$1900" }
+]

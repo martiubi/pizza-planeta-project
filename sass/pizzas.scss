@@ -1,0 +1,134 @@
+@import 'variables';
+@import 'navbar';
+@import 'base';
+
+.pizzas-body {
+  background-color: $green;
+}
+
+.pizzas-main {
+  padding: 0 2.8rem;
+
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    opacity: 0.2;
+  }
+
+  .title {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    color: $grey;
+  }
+
+  .btn-container {
+    margin-bottom: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .tab-btn {
+      padding: 0.2rem 0.1rem;
+      font-size: 0.9rem;
+      background: $orange;
+      display: block;
+      cursor: pointer;
+      border: none;
+      color: $grey;
+      font-weight: 700;
+      transition: all 0.4s;
+    }
+
+    .tab-btn:nth-child(1) {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .tab-btn:nth-child(3) {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .active {
+      background-color: $grey;
+      color: $orange;
+    }
+
+    .tab-btn:hover:not(.active) {
+      background: $grey;
+      color: $yellow;
+    }
+  }
+  .menu-container {
+    margin-bottom: 2rem;
+  }
+  .menu-content {
+    background-color: rgb(245, 245, 245, 0.5);
+    z-index: -99;
+    border-radius: 10px;
+
+    .precio {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0.2rem 0.4rem;
+
+      p {
+        color: $green;
+        font-size: 0.9rem;
+        font-weight: 900;
+        letter-spacing: 0.6px;
+        padding: 0.2rem;
+      }
+
+      .pesos {
+        text-align: end;
+      }
+    }
+
+    .descrip {
+      padding: 0.45rem;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: $yellow;
+    }
+
+    .content {
+      display: none;
+    }
+    .content.active {
+      display: block;
+    }
+  }
+}
+
+@include tablet {
+  .navbar {
+    &__toggle.pizza-page {
+      display: block;
+    }
+    &__center.pizza-page {
+      width: 1024px;
+      margin-right: auto;
+      margin-left: auto;
+
+      .logo-pic {
+        max-width: 20%;
+      }
+    }
+    &__list.pizza-page {
+      display: none;
+    }
+  }
+  .pizzas-main {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

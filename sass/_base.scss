@@ -1,0 +1,37 @@
+@import 'variables';
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $body-font;
+  font-size: 0.925rem;
+  margin-top: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+ul,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

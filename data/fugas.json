@@ -1,0 +1,11 @@
+[
+  { "type": "fugas", "description": "SOLA", "price": "$1600" },
+  { "type": "fugas", "description": "con JAMON", "price": "$1900" },
+  { "type": "fugas", "description": "con ROQUEFORT", "price": "$2000" },
+  { "type": "fugas", "description": "con PANCETA", "price": "$2100" },
+  {
+    "type": "fugas",
+    "description": "con PANCETA Y HUEVOS FRITOS",
+    "price": "$2500"
+  }
+]

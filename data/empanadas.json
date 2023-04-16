@@ -1,0 +1,12 @@
+[
+  { "sabor": "CARNE", "precio": "$100" },
+  { "sabor": "POLLO", "precio": "$100" },
+  { "sabor": "JAMON Y MOZZARELLA", "precio": "$100" },
+  { "sabor": "CAPRESE", "precio": "$100" },
+  { "sabor": "HUMITA", "precio": "$100" },
+  { "sabor": "CUATRO QUESOS", "precio": "$100" },
+  { "sabor": "PANCETA", "precio": "$100" },
+  { "sabor": "CALABRESA", "precio": "$100" },
+  { "sabor": "VERDURA", "precio": "$100" },
+  { "sabor": "CALABAZA", "precio": "$100" }
+]

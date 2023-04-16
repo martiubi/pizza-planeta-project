@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/330652dcb8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/sass/pizzas.css" />
+    <title>Pizzas Menut</title>
+  </head>
+
+  <body class="pizzas-body">
+    <!-- Header -->
+    <header>
+      <nav class="navbar pizza-page">
+        <div class="navbar__center pizza-page">
+          <div class="logo-pic">
+            <img
+              src="images\logo-mini-removebg-preview.png"
+              alt="Logo"
+              class="logo-mini"
+            />
+            <img
+              src="images\pizza-logo-removebg-preview.png"
+              alt="Logo"
+              class="logo-big"
+            />
+          </div>
+          <div class="navbar__toggle pizza-page" id="nav-toggle">
+            <div class="back-btn">
+              <i
+                class="fa-solid fa-circle-arrow-left"
+                style="color: #ffd447"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <ul class="navbar__list pizza-page" id="nav-list">
+          <li class="navbar__list--item">
+            <a href="#inicio" class="navbar__list--link">Inicio</a>
+          </li>
+          <li class="navbar__list--item">
+            <a href="#promo" class="navbar__list--link">Promociones</a>
+          </li>
+          <li class="navbar__list--item">
+            <a href="#navbar" class="navbar__list--link">Menú</a>
+          </li>
+          <li class="navbar__list--item">
+            <a href="#nosotros" class="navbar__list--link">Nostros</a>
+          </li>
+          <li class="navbar__list--item">
+            <a href="#contacto" class="navbar__list--link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="pizzas-main">
+      <img
+        src="images\MagicEraser_230411_175823.png"
+        alt="universe"
+        class="uni-background"
+      />
+      <div class="title">
+        <h2>Pizzas</h2>
+      </div>
+      <div class="menu-container">
+        <div class="btn-container">
+          <button class="tab-btn active" id="mozzas">Mozzarellas</button>
+          <button class="tab-btn" id="napos">Napolitanas</button>
+          <button class="tab-btn" id="fugas">Fugazzetas</button>
+        </div>
+
+        <div class="menu-content">
+          <section class="content active mozzas">
+            <p class="descrip">
+              Media masa crocante, salsa, mozzarella y orégano.
+            </p>
+            <ul class="menu-list-mozzas">
+              <li class="mozzas-item">
+                <div class="precio">
+                  <p class="tipo">SOLA</p>
+                  <p class="pesos">$1600</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="content napos">
+            <p class="descrip">
+              Salsa, mozzarella, rodajas de tomate y orégano.
+            </p>
+            <ul class="menu-list-napos">
+              <li class="napos-item">
+                <div class="precio">
+                  <p class="tipo">SOLA</p>
+                  <p class="pesos">$1600</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="content fugas">
+            <p class="descrip">Cebolla, mozzarella y orégano.</p>
+            <ul class="menu-list-fugas">
+              <li class="fugas-item">
+                <div class="precio">
+                  <p class="tipo">SOLA</p>
+                  <p class="pesos">$1600</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="js\hamburger.js"></script>
+    <script src="js\pizzas.js"></script>
+  </body>
+</html>

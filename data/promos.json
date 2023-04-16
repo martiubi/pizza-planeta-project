@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Mozzarella + Napolitana o Fugazzeta",
+    "precio": "$2800"
+  },
+  {
+    "id": 2,
+    "descripcion": "Mozzarella + Napolitana + Fugazzeta",
+    "precio": "$4300"
+  },
+  {
+    "id": 3,
+    "descripcion": "Mozzarella + Jamon y tomates",
+    "precio": "$3200"
+  },
+  {
+    "id": 4,
+    "descripcion": "Mozzarella + Jamon y morrones",
+    "precio": "$3200"
+  },
+  {
+    "id": 5,
+    "descripcion": "Mozzarella + Calabresa",
+    "precio": "$3100"
+  },
+  {
+    "id": 6,
+    "descripcion": "3 Mozzarellas",
+    "precio": "$4000"
+  },
+  {
+    "id": 7,
+    "descripcion": "Mozzarella + Napolitana + Roquefort",
+    "precio": "$4500"
+  },
+  {
+    "id": 8,
+    "descripcion": "Mozzarella + Fugazzeta + Jamon",
+    "precio": "$4500"
+  },
+  {
+    "id": 9,
+    "descripcion": "Mozzarella + 6 empanadas",
+    "precio": "$2700"
+  }
+]

@@ -1,0 +1,74 @@
+@import 'variables';
+@import 'navbar';
+@import 'base';
+
+.empanadas-body {
+  background-color: $green;
+}
+
+.empanadas-main {
+  padding: 0 2.8rem;
+
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    opacity: 0.2;
+  }
+
+  .title {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    color: $grey;
+  }
+
+  .menu-container,
+  .price-container {
+    margin-bottom: 2rem;
+    background-color: rgb(245, 245, 245, 0.5);
+    z-index: -99;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+
+    .types,
+    p {
+      text-align: center;
+      line-height: 2.2rem;
+      color: $green;
+      font-weight: 900;
+      letter-spacing: 0.8px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@include tablet {
+  .navbar {
+    &__toggle.empanada-page {
+      display: block;
+    }
+    &__center.empanada-page {
+      width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .logo-pic {
+        max-width: 20%;
+      }
+    }
+
+    &__list.empanada-page {
+      display: none;
+    }
+  }
+  .empanadas-main {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,11 @@
+[
+  { "type": "napos", "description": "SOLA", "price": "$1600" },
+  { "type": "napos", "description": "con JAMON", "price": "$1900" },
+  { "type": "napos", "description": "con HUEVO DURO", "price": "$1900" },
+  {
+    "type": "napos",
+    "description": "con JAMON Y HUEVO DURO",
+    "price": "$2200"
+  },
+  { "type": "napos", "description": "JAMON Y MORRONES", "price": "$2200" }
+]
